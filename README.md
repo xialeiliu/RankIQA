@@ -32,7 +32,7 @@ We propose a no-reference image quality assessment
 
 The main idea our approach to address the problem of limited IQA dataset size in order to train a deep CNN.
 
-![Our_approach](https://github.com/xialeiliu/RankIQA/tree/master/figs/models.png)
+![Models](https://github.com/xialeiliu/RankIQA/tree/master/figs/models.png )
 
 ## Results
 
