@@ -8,6 +8,7 @@ Xialei Liu, Joost van de Weijer and Andrew D. Bagdanov
 ## Institutions
 
 [Computer Vision Center, Barcelona, Spain](http://www.cvc.uab.es/lamp/)
+
 Media Integration and Communication Center, University of Florence, Florence, Italy
 
 ## Abstract
@@ -26,3 +27,15 @@ We propose a no-reference image quality assessment
   by forward propagating a batch of images through a single network
   and backpropagating gradients derived from all pairs of images in
   the batch. Experiments on the TID2013 benchmark show that we improve the state-of-the-art by over 5%. Furthermore, on the LIVE benchmark we show that our approach is superior to existing NR-IQA techniques and that we even outperform the state-of-the-art in full-reference IQA (FR-IQA) methods without having to resort to high-quality reference images to infer IQA.
+
+## Results
+
+We have reported experimental results on different IQA datasets including TID2013, LIVE, CSIQ, MLIVE.
+
+## Framework
+
+All training and testing are done in Caffe framework.
+
+## Citation
+
+Please cite our paper if you are inspired by the idea.
