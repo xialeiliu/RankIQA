@@ -28,6 +28,12 @@ We propose a no-reference image quality assessment
   and backpropagating gradients derived from all pairs of images in
   the batch. Experiments on the TID2013 benchmark show that we improve the state-of-the-art by over 5%. Furthermore, on the LIVE benchmark we show that our approach is superior to existing NR-IQA techniques and that we even outperform the state-of-the-art in full-reference IQA (FR-IQA) methods without having to resort to high-quality reference images to infer IQA.
 
+## Models
+
+The main idea our approach to address the problem of limited IQA dataset size in order to train a deep CNN.
+
+![The classical approach V.S. Our approach](https://github.com/xialeiliu/RankIQA/tree/master/figs/xialei_fw2.pdf)
+
 ## Results
 
 We have reported experimental results on different IQA datasets including TID2013, LIVE, CSIQ, MLIVE.
