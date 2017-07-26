@@ -1,4 +1,4 @@
-# RankIQA:Learning from Rankings for No-reference Image Quality assessment
+# RankIQA: Learning from Rankings for No-reference Image Quality Assessment
 
 The paper will appear in ICCV 2017. The code and model will be undated later.
 
