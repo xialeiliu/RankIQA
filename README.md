@@ -2,7 +2,7 @@
 
 The paper will appear in ICCV 2017. The code and model will be undated later.
 
-An [arXiv pre-print]() version and the [supplementary material](./pdf/Xialei_IQA_ICCV.pdf) are available.
+An [arXiv pre-print](https://arxiv.org/abs/1707.08347) version and the [supplementary material](./pdf/Xialei_IQA_ICCV.pdf) are available.
 
 ## Authors
 
@@ -33,7 +33,7 @@ We propose a no-reference image quality assessment
 
 ## Models
 
-The main idea our approach to address the problem of limited IQA dataset size in order to train a deep CNN.
+The main idea of our approach is to address the problem of limited IQA dataset size, which allows us to train a much deeper CNN without overfitting.
 
 ![Models](./figs/models.png )
 
@@ -43,7 +43,7 @@ We have reported experimental results on different IQA datasets including TID201
 
 ## Framework
 
-All training and testing are done in Caffe framework.
+All training and testing are done in [Caffe](http://caffe.berkeleyvision.org/) framework.
 
 ## Citation
 
