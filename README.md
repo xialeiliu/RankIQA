@@ -35,13 +35,32 @@ The main idea of our approach is to address the problem of limited IQA dataset s
 
 ![Models](./figs/models.png )
 
-## Results
-
-We have reported experimental results on different IQA datasets including TID2013, LIVE, CSIQ, MLIVE.
-
 ## Framework
 
 All training and testing are done in [Caffe](http://caffe.berkeleyvision.org/) framework.
+
+## Datasets
+
+### Ranking datasets
+
+Using an arbitrary set of images, we synthetically generate deformations of these images over a range of distortion intensities. In this paper, the reference images in [Waterloo](https://ece.uwaterloo.ca/~zduanmu/cvpr16_gmad/) and the validation set of the [Places2](http://places2.csail.mit.edu/) are used as reference images. The details of generated distortions can be found in [supplementary material](./pdf/Xialei_IQA_ICCV.pdf).
+
+### IQA datasets
+
+We have reported experimental results on different IQA datasets including [TID2013](http://www.ponomarenko.info/tid2013.htm), [LIVE](http://live.ece.utexas.edu/research/quality/subjective.htm), [CSIQ](http://vision.eng.shizuoka.ac.jp/mod/page/view.php?id=23), [MLIVE](http://live.ece.utexas.edu/research/quality/live_multidistortedimage.html).
+
+## Training
+
+### RankIQA
+
+Using the set of ranked images, we train a Siamese network and demonstrate how our approach can be made
+significantly more efficient than traditional Siamese Networks by forward propagating a batch of images through
+a single network and backpropagating gradients derived from all pairs of images in the batch. The result is a
+Siamese network that ranks images by image quality.
+
+### RankIQA+FT
+
+Finally, we extract a single branch of the Siamese network (we are interested at this point in the representation learned in the network, and not in the ranking itself), and fine-tune it on available IQA data. This effectively calibrates the network to output IQA measurements.
 
 ## Citation
 
