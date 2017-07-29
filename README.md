@@ -1,8 +1,6 @@
 # RankIQA: Learning from Rankings for No-reference Image Quality Assessment
 
-The paper will appear in ICCV 2017. The code and model will be undated later.
-
-An [arXiv pre-print](https://arxiv.org/abs/1707.08347) version and the [supplementary material](./pdf/Xialei_IQA_ICCV.pdf) are available.
+The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1707.08347) version and the [supplementary material](./pdf/Xialei_IQA_ICCV.pdf) are available.
 
 ## Authors
 
