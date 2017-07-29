@@ -51,6 +51,8 @@ We have reported experimental results on different IQA datasets including [TID20
 
 ## Training
 
+The details can be found in [src](./src).
+
 ### RankIQA
 
 Using the set of ranked images, we train a Siamese network and demonstrate how our approach can be made
