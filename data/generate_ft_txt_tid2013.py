@@ -4,7 +4,7 @@ import scipy.io as sio
 import os
 import os.path as osp
 
-data_dir = './tid2013/'
+data_dir = 'tid2013/'
 
 file_root = data_dir + 'distorted_images' + '/'
 list_file = data_dir + 'mos_with_names' + '.txt'
@@ -26,8 +26,8 @@ shuff = np.random.permutation(range(1,25))
 Num_tr = 19  # ~80% of reference images as training samples
 Num_te = 5   # ~20% of reference images as testing samples
 
-train_file = open('tid2013'+'_train.txt', "w")
-test_file = open('tid2013'+'_test.txt', "w")
+train_file = open('ft_tid2013'+'_train.txt', "w")
+test_file = open('ft_tid2013'+'_test.txt', "w")
 
 shuff_txt=np.random.permutation(range(TotalNum))    
     
