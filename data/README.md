@@ -9,7 +9,11 @@ This is essential because the data structure is related to the [data reader func
 
 To train the RankIQA model on generated rank dataset, the data structure should be like [tid2013_test.txt](./tid2013_test.txt).
 
+The code to generate the txt is available.
+
 ### IQA datasets preparation
 
-To train the RankIQA+FT model finetuned on tid2013 dataset, the data structure should be like [ft_tid2013_test.txt](./ft_tid2013_test.txt) 
+To train the RankIQA+FT model finetuned on tid2013 dataset, the data structure should be like [ft_tid2013_test.txt](./ft_tid2013_test.txt).
+
+The code to generate the txt is available.
 
