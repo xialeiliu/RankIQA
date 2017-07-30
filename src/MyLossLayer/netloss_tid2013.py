@@ -3,7 +3,7 @@ import numpy as np
 import pdb
 
 class MyLossLayer(caffe.Layer):
-    """Layer that computes mean and median angular error on batch."""
+    """Layer of Efficient Siamese loss function."""
 
     def setup(self, bottom, top):
         self.margin = 1

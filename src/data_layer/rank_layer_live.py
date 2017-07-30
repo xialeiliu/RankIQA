@@ -111,7 +111,7 @@ class DataLayer(caffe.Layer):
 def preprocess(data):
 
     sp = 224
-    im = np.asarray(cv2.imread('data/'+ data))
+    im = np.asarray(cv2.imread(data))
     x =  im.shape[0]
     y = im.shape[1]
     x_p = np.random.randint(x-sp,size=1)[0]

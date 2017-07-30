@@ -4,7 +4,7 @@ import scipy.io as sio
 import os
 import os.path as osp
 
-data_dir = 'tid2013/'
+data_dir = 'data/tid2013/'
 
 file_root = data_dir + 'distorted_images' + '/'
 list_file = data_dir + 'mos_with_names' + '.txt'

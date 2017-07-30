@@ -3,14 +3,14 @@ from scipy import stats
 import numpy as np
 #import ipdb
 class AngularErrorLayer(caffe.Layer):
-    """Layer that computes mean and median angular error on batch."""
+    """Layer that computes SROCC and LCC on batch."""
 
     def setup(self, bottom, top):
         print '*********************** SETTING UP'
         pass
 
     def forward(self, bottom, top):
-        """Compute the mean and median error and output them to top."""
+        """Compute the SROCC and LCC and output them to top."""
         #ipdb.set_trace()
         testPreds = bottom[0].data
         testPreds = np.reshape(testPreds,testPreds.shape[0])
@@ -18,8 +18,7 @@ class AngularErrorLayer(caffe.Layer):
         testLabels = np.reshape(testLabels,testLabels.shape[0])
         top[0].data[...] = stats.spearmanr(testPreds, testLabels)[0]
         top[1].data[...] = stats.pearsonr(testPreds, testLabels)[0]
-        #top[0].data[...] = testPreds
-        #top[1].data[...] = testLabels
+
     def backward(self, top, propagate_down, bottom):
         """This layer does not propagate gradients."""
         pass

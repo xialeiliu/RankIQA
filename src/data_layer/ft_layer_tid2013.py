@@ -6,7 +6,7 @@ import pdb
 import os.path as osp
 
 class DataLayer(caffe.Layer):
-    """Fast R-CNN data layer used for training."""
+   
     def setup(self, bottom, top):
 
         self._name_to_top_map = {}
@@ -107,7 +107,7 @@ class DataLayer(caffe.Layer):
 
 def preprocess(data):
 
-    im = np.asarray(cv2.imread('tid2013/'+ data))
+    im = np.asarray(cv2.imread(data))
     x =  im.shape[0]
     y = im.shape[1]
     x_p = np.random.randint(x-224,size=1)[0]

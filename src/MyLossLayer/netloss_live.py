@@ -3,7 +3,7 @@ import numpy as np
 import pdb
 
 class MyLossLayer(caffe.Layer):
-    """Layer that computes mean and median angular error on batch."""
+    """Layer of Efficient Siamese loss function."""
 
     def setup(self, bottom, top):
         self.margin = 1
@@ -11,7 +11,7 @@ class MyLossLayer(caffe.Layer):
         pass
 
     def forward(self, bottom, top):
-        """The parameters here have the same meaning as data_layer"""
+        """The forward """
         self.Num = 0
         batch = 2
         level = 6

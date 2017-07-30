@@ -6,7 +6,7 @@ import os
 # folder includes all distortion types of ranking data for tid2013
 folder = ['JPEG','GN','GB','JP2K','GNC','MSL','MSH','CCL','CCH','IN','ID','BW','NEPN','QN','CA','CS','MGN','CQD']
 
-dir_rank = 'rank_tid2013/'
+dir_rank = 'data/rank_tid2013/'   # Change to your data folder 
 
 train_file = open('tid2013'+'_train.txt', "w")
 test_file = open('tid2013'+'_test.txt', "w")
