@@ -33,10 +33,25 @@ To train the RankIQA+FT models on LIVE dataset:
 ```
 ./src/FT/live/train_live.sh
 ```
+## Evaluation for RankIQA
+
+```
+python src/eval/Rank_eval_each_tid2013.py  # evaluation for each distortions
+python src/eval/Rank_eval_all_tid2013.py   # evaluation for all distortions in tid2013
+```
+
+## Evaluation for RankIQA+FT
+
+```
+python src/eval/FT_eval_each_tid2013.py  # evaluation for each distortions
+python src/eval/FT_eval_all_tid2013.py   # evaluation for all distortions in tid2013
+```
+
 
 ## Folder introdcutions
 
-1. [data_layer](./data_layer) includes the Python function to read the input data for different datasets. 
-2. [MyLossLayer](./MyLossLayer) contains the Python function of our efficient back-propagation method for different datasets. 
-3. [tools](./tools) provides the Python function to calculate the evaluation matrix during training. 
+1. [data_layer](./data_layer) includes the Python functions to read the input data for different datasets. 
+2. [MyLossLayer](./MyLossLayer) contains the Python functions of our efficient back-propagation method for different datasets. 
+3. [tools](./tools) provides the Python functions to calculate the evaluation matrix during training. 
+4. [eval](./eval) provides the Python functions to evaluate the trained models. 
 
