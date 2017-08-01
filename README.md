@@ -67,3 +67,12 @@ Finally, we extract a single branch of the Siamese network (we are interested at
 ## Citation
 
 Please cite our paper if you are inspired by the idea.
+
+```
+@article{liu2017rankiqa,
+  title={RankIQA: Learning from Rankings for No-reference Image Quality Assessment},
+  author={Liu, Xialei and van de Weijer, Joost and Bagdanov, Andrew D},
+  journal={arXiv preprint arXiv:1707.08347},
+  year={2017}
+}
+```
