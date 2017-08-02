@@ -7,12 +7,12 @@ import cv2
    
 label = 'LIVE2_labels.mat'
 shape = ['gblur','wn','jpeg','jp2k','fastfading']
-data_path = 'data/tid2013/' 
+data_path = '/home/xialei/Project/CleanProject/Camera-ready-code/data/live/' 
 list_file = 'ref' + '.txt'
 
 
 filename = [line.rstrip('\n') for line in open(
-            osp.join(data_path, list_file))]
+            osp.join('./', list_file))]
             
 ref = filename
             
@@ -24,7 +24,7 @@ test_file = open('ft_live_test.txt', "w")
 
 Num_tr = 23
 Num_te = 29
-test = False
+test = True
 flag = 1
 
 for tp in shape:
@@ -43,7 +43,7 @@ for tp in shape:
         temp_label = gt_label[tp]
         temp_label = temp_label.swapaxes(1,0)
     
-    a = os.listdir(tp)
+    a = os.listdir(data_path +tp)
     a.sort()
     
     TotalNum = temp_label.shape[0]
