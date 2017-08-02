@@ -4,7 +4,7 @@ git clone https://github.com/xialeiliu/RankIQA.git
 cd RankIQA
 ```
 ## Requirements
-1. Requirements for ```caffe ``` and  ```pycaffe ```. (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+1. Requirements for ```caffe ``` and  ```pycaffe ``` (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html)). 
 Caffe must be built with support for Python layers!
 
 ```
