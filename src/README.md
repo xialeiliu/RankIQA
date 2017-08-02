@@ -17,6 +17,9 @@ WITH_PYTHON_LAYER := 1
 
 The details can be found in [data](../data)
 
+## Pre-trained ImageNet VGG-16 model
+Download the pre-trained [VGG-16](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md) ImageNet model and put it in the folder [models](../models).
+
 ## RankIQA
 
 To train the RankIQA models on tid2013 dataset:
