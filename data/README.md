@@ -8,7 +8,7 @@ This is essential because the data structure is related to the [data reader func
 1. Download the [live](http://live.ece.utexas.edu/research/quality/subjective.htm) dataset and put it in [live](./live) folder.
 2. Download the [TID2013](http://www.ponomarenko.info/tid2013.htm) dataset and put it in [tid2013](./tid2013) folder.
 3. Download the [Waterloo](https://ece.uwaterloo.ca/~zduanmu/cvpr16_gmad/) or Validation set of [Places2](http://places2.csail.mit.edu/) datasets, and put it in [rank_live](./rank_live) and [rank_tid2013](./rank_tid2013) folders.
-4. Follow the instructions of [Waterloo](https://ece.uwaterloo.ca/~zduanmu/cvpr16_gmad/) to generate 4 distortions (JPEG, JP2K, Gblur and GN) at five levels in [rank_live](./rank_live). The code to generate 17 distortions for tid2013 dataset will publicly available in the future.
+4. Follow the instructions of [Waterloo](https://ece.uwaterloo.ca/~zduanmu/cvpr16_gmad/) to generate 4 distortions (JPEG, JP2K, Gblur and GN) at five levels in [rank_live](./rank_live). The code to generate 17 distortions for tid2013 dataset will be publicly available in the future.
 
 ### Ranking datasets preparation
 
