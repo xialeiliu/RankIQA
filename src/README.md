@@ -3,6 +3,16 @@
 git clone https://github.com/xialeiliu/RankIQA.git
 cd RankIQA
 ```
+## Requirements
+1. Requirements for ```caffe ``` and  ```pycaffe ```. (see: [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html))
+Caffe must be built with support for Python layers!
+
+```
+# In your Makefile.config, make sure to have this line uncommented
+WITH_PYTHON_LAYER := 1
+```
+2. Requirements for GPU (Titan X (~11G of memory) is needed to train VGG).
+
 ## Preparing Ranking and IQA datasets
 
 The details can be found in [data](../data)
