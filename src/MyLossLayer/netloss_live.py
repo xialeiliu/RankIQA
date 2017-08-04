@@ -6,7 +6,7 @@ class MyLossLayer(caffe.Layer):
     """Layer of Efficient Siamese loss function."""
 
     def setup(self, bottom, top):
-        self.margin = 1
+        self.margin = 10
         print '*********************** SETTING UP'
         pass
 

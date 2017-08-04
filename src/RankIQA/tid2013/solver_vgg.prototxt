@@ -9,7 +9,7 @@ lr_policy: "step"
 gamma: 0.1
 stepsize: 10000
 display: 100
-max_iter: 20000
+max_iter: 50000
 momentum: 0.9
 solver_type: SGD
 weight_decay: 0.0005
