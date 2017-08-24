@@ -6,7 +6,7 @@ import os
 # folder includes all distortion types of ranking data for tid2013
 folder = ['JPEG','GN','GB','JP2K']
 
-dir_rank = '/home/xialei/Project/CleanProject/New_ranking/'   # Change to your data folder 
+dir_rank = './data/rank_live/'   # Change to your data folder 
 
 train_file = open('live'+'_train.txt', "w")
 test_file = open('live'+'_test.txt', "w")
