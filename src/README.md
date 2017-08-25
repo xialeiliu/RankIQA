@@ -46,20 +46,24 @@ To train the RankIQA+FT models on LIVE dataset:
 ```
 ./src/FT/live/train_live.sh
 ```
-## Evaluation for RankIQA
+## Evaluation for RankIQA on tid2013:
 
 ```
-python src/eval/Rank_eval_each_tid2013.py  # evaluation for each distortions
+python src/eval/Rank_eval_each_tid2013.py  # evaluation for each distortions in tid2013
 python src/eval/Rank_eval_all_tid2013.py   # evaluation for all distortions in tid2013
 ```
 
-## Evaluation for RankIQA+FT
+## Evaluation for RankIQA+FT on tid2013:
 
 ```
-python src/eval/FT_eval_each_tid2013.py  # evaluation for each distortions
+python src/eval/FT_eval_each_tid2013.py  # evaluation for each distortions in tid2013
 python src/eval/FT_eval_all_tid2013.py   # evaluation for all distortions in tid2013
 ```
+## Evaluation for RankIQA+FT on LIVE:
 
+```
+python src/eval/FT_eval_all_live.py   # evaluation for all distortions in LIVE
+```
 
 ## Folder introdcutions
 
