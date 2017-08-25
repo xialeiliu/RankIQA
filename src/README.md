@@ -59,6 +59,13 @@ python src/eval/Rank_eval_all_tid2013.py   # evaluation for all distortions in t
 python src/eval/FT_eval_each_tid2013.py  # evaluation for each distortions in tid2013
 python src/eval/FT_eval_all_tid2013.py   # evaluation for all distortions in tid2013
 ```
+
+## Evaluation for RankIQA on LIVE:
+
+```
+python src/eval/Rank_eval_all_live.py   # evaluation for all distortions in LIVE
+```
+
 ## Evaluation for RankIQA+FT on LIVE:
 
 ```
