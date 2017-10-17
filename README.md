@@ -2,6 +2,22 @@
 
 The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1707.08347) version and the [supplementary material](./pdf/Xialei_IQA_ICCV.pdf) are available.
 
+ICCV 2017 open access is [available](http://openaccess.thecvf.com/ICCV2017.py) and the poster can be found [here](./pdf/poster_ICCV_2017.pdf).
+
+## Citation
+
+Please cite our paper if you are inspired by the idea.
+
+```
+@InProceedings{Liu_2017_ICCV,
+author = {Liu, Xialei and van de Weijer, Joost and Bagdanov, Andrew D.},
+title = {RankIQA: Learning From Rankings for No-Reference Image Quality Assessment},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+}
+```
+
 ## Authors
 
 Xialei Liu, Joost van de Weijer and Andrew D. Bagdanov
@@ -64,15 +80,4 @@ Siamese network that ranks images by image quality.
 
 Finally, we extract a single branch of the Siamese network (we are interested at this point in the representation learned in the network, and not in the ranking itself), and fine-tune it on available IQA data. This effectively calibrates the network to output IQA measurements.
 
-## Citation
 
-Please cite our paper if you are inspired by the idea.
-
-```
-@article{liu2017rankiqa,
-  title={RankIQA: Learning from Rankings for No-reference Image Quality Assessment},
-  author={Liu, Xialei and van de Weijer, Joost and Bagdanov, Andrew D},
-  journal={arXiv preprint arXiv:1707.08347},
-  year={2017}
-}
-```
