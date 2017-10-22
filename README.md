@@ -2,7 +2,7 @@
 
 The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1707.08347) version and the [supplementary material](./pdf/Xialei_IQA_ICCV.pdf) are available.
 
-ICCV 2017 open access is [available](http://openaccess.thecvf.com/ICCV2017.py) and the poster can be found [here](./pdf/poster_ICCV_2017.pdf).
+ICCV 2017 open access is [available](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_RankIQA_Learning_From_ICCV_2017_paper.pdf) and the poster can be found [here](./pdf/poster_ICCV_2017.pdf).
 
 ## Citation
 
