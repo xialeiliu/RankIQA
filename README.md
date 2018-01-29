@@ -55,6 +55,10 @@ The main idea of our approach is to address the problem of limited IQA dataset s
 
 All training and testing are done in [Caffe](http://caffe.berkeleyvision.org/) framework.
 
+## Pre-trained models
+
+The pre-trained [models](./pre-trained) are avaiable to download.
+
 ## Datasets
 
 ### Ranking datasets
