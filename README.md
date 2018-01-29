@@ -57,7 +57,7 @@ All training and testing are done in [Caffe](http://caffe.berkeleyvision.org/) f
 
 ## Pre-trained models
 
-The pre-trained [models](./pre-trained) are avaiable to download.
+The pre-trained [models](./pre-trained) are available to download.
 
 ## Datasets
 
