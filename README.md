@@ -63,7 +63,7 @@ The pre-trained [models](./pre-trained) are available to download.
 
 ### Ranking datasets
 
-Using an arbitrary set of images, we synthetically generate deformations of these images over a range of distortion intensities. In this paper, the reference images in [Waterloo](https://ece.uwaterloo.ca/~zduanmu/cvpr16_gmad/) and the validation set of the [Places2](http://places2.csail.mit.edu/) are used as reference images. The details of generated distortions can be found in [supplementary material](./pdf/Xialei_IQA_ICCV.pdf).
+Using an arbitrary set of images, we synthetically generate deformations of these images over a range of distortion intensities. In this paper, the reference images in [Waterloo](https://ece.uwaterloo.ca/~zduanmu/cvpr16_gmad/) and the validation set of the [Places2](http://places2.csail.mit.edu/) are used as reference images. The details of generated distortions can be found in [supplementary material](./pdf/Xialei_IQA_ICCV.pdf). The source code can be found in this [folder](./data/rank_tid2013).
 
 ### IQA datasets
 
