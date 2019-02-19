@@ -4,6 +4,8 @@ The paper will appear in ICCV 2017. An [arXiv pre-print](https://arxiv.org/abs/1
 
 ICCV 2017 open access is [available](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_RankIQA_Learning_From_ICCV_2017_paper.pdf) and the poster can be found [here](./pdf/poster_ICCV_2017.pdf).
 
+The updated version is accepted at IEEE Transactions on Pattern Analysis and Machine Intelligence. Here is [arXiv pre-print version](https://arxiv.org/abs/1902.06285). 
+
 ## Citation
 
 Please cite our paper if you are inspired by the idea.
@@ -16,6 +18,18 @@ booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
 month = {Oct},
 year = {2017}
 }
+```
+and 
+
+```
+@ARTICLE{8642842, 
+author={X. {Liu} and J. {Van De Weijer} and A. D. {Bagdanov}}, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Exploiting Unlabeled Data in CNNs by Self-supervised Learning to Rank}, 
+year={2019}, 
+pages={1-1}, 
+doi={10.1109/TPAMI.2019.2899857}, 
+ISSN={0162-8828}, }
 ```
 
 ## Authors
